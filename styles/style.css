@@ -26,7 +26,7 @@ background-blend-mode:overlay;
     background-position:center;
 background-repeat:no-repeat;
 background-size: cover;
-background-color:rgba(0, 0, 0, 0.5);  
+background-color:rgba(0, 0, 0, 0.6);  
  }
 
 .new-year{
@@ -99,3 +99,244 @@ height: 500px;
 height: 100%;
 margin-top: 48px;
 }
+
+/* midnight party section styles start here */
+
+.midnight-party-container{
+    width: 1320px;
+    height: 600px;
+   border-radius: 16px;
+    margin: 0px auto;
+    display: flex;
+    background-image: url(../images/victorii.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: overlay;
+    margin-top:120px ;
+}
+
+.leftside-content{
+width: 60%;
+height: 600px;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:30px;
+
+
+}
+.leftside-content h1{
+    color: rgb(255, 255, 255);
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+
+}
+.leftside-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+padding: 24px;
+margin-left:55px ;
+
+
+}
+
+#midnight-btn{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-right: 350px;
+
+
+
+}
+
+
+.rightside-content{  
+    width: 50%; 
+height: 600px;
+
+}
+.rightside-content img{
+
+    
+    margin-top: 70px ;
+    padding-left: 150px;
+}
+/* event time section styles start here */
+
+.event-time-container{
+
+    width: 1320px;
+    height: 482px;
+
+    border-radius: 16px;
+    margin:0 auto ;
+    margin-top:120px ;
+
+background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+
+}
+.event-time-content{
+
+/* justify-content: center;
+align-items: center;
+height: 168px; */
+
+text-align:center;
+
+padding: 100px;
+
+}
+.content{
+
+font: inter ;
+font-size: 32px;
+font-weight: 600;
+
+}
+ .red{
+color: rgb(255, 0, 0);
+
+ }
+ .btn{ margin-top: 60px;
+    padding: 16px 32px 16px 32px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+
+ }
+
+ /* coming soon section styles start here */
+
+ .coming-soon-container{
+    width: 1320px;
+    height: 400px;
+  
+    display: flex;
+    margin: 0 auto;
+    margin-top: 120px;
+
+
+ }
+ .first-devision{
+    width: 33%;
+  
+    margin-top: ;
+align-items: start;
+
+ }
+
+ .first-devision h3{
+
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top:104px ;
+ }
+ .first-devision h1{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: capitalize;
+    margin-top: 16px;
+ }
+.first-devision p{
+
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+margin-top: 22px;
+}
+
+ .second-devision{
+    width: 40%;
+  
+    /* width: 463px;
+    height: 463px; */
+
+
+ }
+ .second-devision img{
+    margin: 20px 0px 20px 100px;
+   
+
+
+  
+
+ }
+
+ .third-devision{
+    width: 20%;
+
+    margin: 70px 0px 0.33px 118px;
+ }
+ .third-devision h2{
+
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-left:20px;
+
+ }
+ .third-devision p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left:20px;
+
+ }
+ .third-devision img{
+margin-top: 25px;
+ margin-left:20px;
+
+ }
+ /* holydays section styles here */
+ .holydays-container{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    margin-top:120px ;
+
+ }
+ .holydays-content{
+
+    text-align: center;
+ }
+ .holydays-content h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+ }
+ .holydays-content h1{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 16px;
+ }
+.clr{
+    color: rgb(255, 0, 0);
+}
+
+ .holydays-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 28px;
+ }
